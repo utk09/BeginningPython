@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec481c7-8836-4515-8401-5d3d081c351d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Variables/2_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Variables/2_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Variables/2_variables.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BeginningPython$1_Syntaxes.coverage" NAME="1_Syntaxes Coverage Results" MODIFIED="1542856811951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_BasicSyntax" />
-    <SUITE FILE_PATH="coverage/BeginningPython$2_variables.coverage" NAME="2_variables Coverage Results" MODIFIED="1542857160174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
+    <SUITE FILE_PATH="coverage/BeginningPython$2_variables.coverage" NAME="2_variables Coverage Results" MODIFIED="1542857585111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-101310565">
@@ -34,14 +35,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="268" />
+          <entry key="py" value="525" />
           <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="268" />
+          <entry key="Python" value="525" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -60,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2_Variables/2_variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -81,8 +82,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py" />
         <option value="$PROJECT_DIR$/2_Variables.py" />
+        <option value="$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py" />
         <option value="$PROJECT_DIR$/2_Variables/2_variables.py" />
       </list>
     </option>
@@ -111,6 +112,11 @@
             <path>
               <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
+              <item name="1_BasicSyntax" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,15 +262,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2_Variables/2_variables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
