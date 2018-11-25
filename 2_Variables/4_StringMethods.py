@@ -36,7 +36,8 @@ print("The count is:=", count)
 # The answer is one because there is one 'ear' in 'learning'
 
 another_substring = "a"
-
+count = delta.count(another_substring, 2, 34)
+print("The count for another_substring is:=", count)
 
 
 
