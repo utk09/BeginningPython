@@ -54,7 +54,8 @@ but by doing what you can to make grace happen...
 yourself, right now, right down here on Earth.
 '''
 
-zeta.find()
+answer = zeta.find('make')
+print("Answer:=", answer)
 
 
 
