@@ -36,8 +36,25 @@ print("The count is:=", count)
 # The answer is one because there is one 'ear' in 'learning'
 
 another_substring = "a"
-count = delta.count(another_substring, 2, 34)
+count = delta.count(another_substring, 2, 34) # count after first 'a' and before the 34th position 'a'
 print("The count for another_substring is:=", count)
+
+
+# find() method
+# find() returns an integer value.
+# If substring exists inside the string, it returns the "index of first occurance" of the substring.
+# If substring doesn't exist inside the string, it returns "-1".
+
+zeta = '''
+Infuse your life with action. 
+Don't wait for it to happen. Make it happen. 
+Make your own future. Make your own hope. Make your own love. 
+And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, 
+but by doing what you can to make grace happen... 
+yourself, right now, right down here on Earth.
+'''
+
+zeta.find()
 
 
 
