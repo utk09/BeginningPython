@@ -35,8 +35,25 @@ city_name = str(input("Enter the name of your city: "))
 pincode = int(input("Enter your Pincode: "))
 
 if city_name == "Mumbai" and pincode == 400045:
+    # here, when both conditions are true, then it'll execute the statement under "if"
     print("Hallelujah! We live so close!")
 elif city_name == "Mumbai":
     print("Hmm... Let's catch-up sometime later.")
 else:
     print("See ya!")
+
+'''
+2 ">" 3 means 2 "greater than" 3
+5 "<" 9 means 5 "less than" 9
+"=" is assignment operator. It assigns a value
+"==" is checking if LHS and RHS are equal
+Other operators are ">=", "<="
+'''
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+if num2 is not 0:
+    print("num1 divided by num2 is: ", num1/num2)
+else:
+    print("Make sure second number is not zero.")
+
