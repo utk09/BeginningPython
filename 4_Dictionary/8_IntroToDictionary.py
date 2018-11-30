@@ -34,5 +34,6 @@ print("Sorted Dictionary: ", sorted(car_companies))  # sorted, on basis of keys.
 
 print("Hyundai" in car_companies)  # checks if the given value is present or not, then returns True or false
 print("Tata Motors" in car_companies)
+print("Germany" in car_companies)  # tests for key only not value
 
 print(car_companies.items())  # prints them as a pair of tuples
