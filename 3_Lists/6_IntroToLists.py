@@ -25,6 +25,8 @@ print(jumbled_list[::2])
 # And '2' means that it'll print elements by jumping over one place.
 # Run the program and you'll understand this.
 
+print("Reversed Jumbled List: ", jumbled_list[::-1]) # will reverse the list
+
 print(alphabet_list)
 del alphabet_list[2]  # will delete the element at index 2.
 print(alphabet_list)
@@ -42,3 +44,5 @@ print(aRandomString[4:24:2])  # jumps of 2
 # This will throw an error, meaning it's contents cannot be changed.
 # Strings are immutable
 print(aRandomString)
+
+print(aRandomString[::-1]) # will reverse the string
