@@ -68,5 +68,14 @@ print("Sum of all elements in new_list1: ", sum(new_list1))
 print("Length(total elements) of new_list2:", len(new_list2))
 print("length of new_string: ", len(new_string))
 
+# Let's slice some lists!
+
+print(new_list1)
+print(new_list1[3:len(new_list1)])  # slices from 3rd element till end of list(length of list)
+
 # More List Methods: https://docs.python.org/3/tutorial/datastructures.html,
 # http://effbot.org/zone/python-list.htm
+
+
+
+# Tasks: https://codingbat.com/python/List-1
