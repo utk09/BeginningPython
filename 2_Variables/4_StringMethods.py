@@ -57,6 +57,8 @@ yourself, right now, right down here on Earth.
 answer = zeta.find('make')
 print("Answer:=", answer)
 
+# Many other string methods can be found here:
+
 
 
 

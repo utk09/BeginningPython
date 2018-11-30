@@ -10,6 +10,6 @@ print(8 % 3)  # Remainder
 print(8 ** 3)  # Power(raised to)
 
 
-print("Addition:", 8 + 3)
+print("Addition:", 8 + 3) # Another Way of Printing, which is more informative
 print("Power:", 8 ** 3)
 

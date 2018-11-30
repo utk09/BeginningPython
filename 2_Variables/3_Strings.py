@@ -4,16 +4,14 @@
 This is a multi line comment
 '''
 
-
 firstYear = "We are First Year Students"  # String
 print(firstYear)
 print(type(firstYear))
 
-
 anotherString = '2'
 just_another_string = "5"
-print(anotherString + just_another_string)
-
+print(anotherString + just_another_string)  # String concatenation or joining of strings.
+print(anotherString, just_another_string)  # Another way of string concatenation.
 
 paragraph = '''This is a very long paragraph. 
 Very long.
