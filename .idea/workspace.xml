@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec481c7-8836-4515-8401-5d3d081c351d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3_Lists/7_ListMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Variables/4_StringMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Variables/4_StringMethods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_Lists/6_IntroToLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_Lists/6_IntroToLists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +16,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BeginningPython$4_StringMethods.coverage" NAME="4_StringMethods Coverage Results" MODIFIED="1543125524827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
     <SUITE FILE_PATH="coverage/BeginningPython$3_Strings.coverage" NAME="3_Strings Coverage Results" MODIFIED="1542903920324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
-    <SUITE FILE_PATH="coverage/BeginningPython$6_IntroToLists.coverage" NAME="6_IntroToLists Coverage Results" MODIFIED="1543564384924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
+    <SUITE FILE_PATH="coverage/BeginningPython$7_ListMethods.coverage" NAME="7_ListMethods Coverage Results" MODIFIED="1543567010409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
+    <SUITE FILE_PATH="coverage/BeginningPython$6_IntroToLists.coverage" NAME="6_IntroToLists Coverage Results" MODIFIED="1543567127722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
     <SUITE FILE_PATH="coverage/BeginningPython$1_Syntaxes.coverage" NAME="1_Syntaxes Coverage Results" MODIFIED="1542856811951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_BasicSyntax" />
     <SUITE FILE_PATH="coverage/BeginningPython$2_variables.coverage" NAME="2_variables Coverage Results" MODIFIED="1542857585111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
     <SUITE FILE_PATH="coverage/BeginningPython$5_UserInputs.coverage" NAME="5_UserInputs Coverage Results" MODIFIED="1543557909246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
@@ -31,24 +35,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5842" />
+          <entry key="py" value="6916" />
           <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="5842" />
+          <entry key="Python" value="6916" />
         </counts>
       </usages-collector>
     </session>
@@ -76,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_Variables/3_Strings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
+            <state relative-caret-position="-220">
               <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
             </state>
           </provider>
@@ -85,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_Variables/4_StringMethods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="226">
+              <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -94,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_Variables/5_UserInputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="260">
               <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
@@ -103,8 +107,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3_Lists/6_IntroToLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="700">
+              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_Lists/7_ListMethods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -130,6 +143,7 @@
         <option value="$PROJECT_DIR$/2_Variables/2_variables.py" />
         <option value="$PROJECT_DIR$/2_Variables/3_Strings.py" />
         <option value="$PROJECT_DIR$/2_Variables/4_StringMethods.py" />
+        <option value="$PROJECT_DIR$/3_Lists/7_ListMethods.py" />
         <option value="$PROJECT_DIR$/3_Lists/6_IntroToLists.py" />
       </list>
     </option>
@@ -163,12 +177,7 @@
             <path>
               <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="1_BasicSyntax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="2_Variables" type="462c0819:PsiDirectoryNode" />
+              <item name="3_Lists" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,28 +205,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.6_IntroToLists">
-    <configuration name="2_variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BeginningPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Variables" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Variables/2_variables.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="3_Strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeginningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,20 +293,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="7_ListMethods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BeginningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_Lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_Lists/7_ListMethods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.2_variables" />
       <item itemvalue="Python.3_Strings" />
       <item itemvalue="Python.4_StringMethods" />
       <item itemvalue="Python.5_UserInputs" />
       <item itemvalue="Python.6_IntroToLists" />
+      <item itemvalue="Python.7_ListMethods" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.6_IntroToLists" />
+        <item itemvalue="Python.7_ListMethods" />
         <item itemvalue="Python.5_UserInputs" />
         <item itemvalue="Python.4_StringMethods" />
         <item itemvalue="Python.3_Strings" />
-        <item itemvalue="Python.2_variables" />
       </list>
     </recent_temporary>
   </component>
@@ -397,31 +406,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2_Variables/5_UserInputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_Variables/3_Strings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
+        <state relative-caret-position="-220">
           <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2_Variables/4_StringMethods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        <state relative-caret-position="226">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_Variables/5_UserInputs.py">
+    <entry file="file://$PROJECT_DIR$/3_Lists/7_ListMethods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="260">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_Lists/6_IntroToLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="700">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
         </state>
       </provider>
     </entry>

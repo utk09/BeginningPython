@@ -5,7 +5,6 @@ alpha = 'this is SOME smalls'
 beta = 'THIS IS ALL CAPS'
 gamma = '####$$$$%%%%****'
 
-
 # Capitalize
 alpha_capitalized = alpha.capitalize()  # capitalizes the first letter
 print("Old String:=", alpha)
@@ -20,7 +19,7 @@ print("New casefold string:=", beta_casefold)
 alpha_centered = alpha.center(24)  # The center() method returns a string which is padded with the specified character.
 print("Old String:=", alpha)
 print("New Centered String:=", alpha_centered)  # Here, before and after the string,
-                                                # there are 24 characters in total, including spaces
+# there are 24 characters in total, including spaces
 
 # You can even add your own characters around the string
 beta_centered = beta.center(24, '?')
@@ -36,9 +35,8 @@ print("The count is:=", count)
 # The answer is one because there is one 'ear' in 'learning'
 
 another_substring = "a"
-count = delta.count(another_substring, 2, 34) # count after first 'a' and before the 34th position 'a'
+count = delta.count(another_substring, 2, 34)  # count after first 'a' and before the 34th position 'a'
 print("The count for another_substring is:=", count)
-
 
 # find() method
 # find() returns an integer value.
@@ -58,7 +56,5 @@ answer = zeta.find('make')
 print("Answer:=", answer)
 
 # Many other string methods can be found here:
-
-
-
-
+# https://docs.python.org/3.1/library/string.html
+# https://developers.google.com/edu/python/strings
