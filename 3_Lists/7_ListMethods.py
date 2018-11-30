@@ -44,23 +44,29 @@ all_list.insert(4, "maltova")  # inserts element at the specified index
 print(all_list)
 
 # Let us start fresh
-new_list1 = [2, 3, 4, 9, 7, 0]
+new_list1 = [2, 1, 4, 9, 7, 0, 1 * 3, 5 / 2]
 new_list2 = ['a', 'b', 'c', 'd', 'z', 'x']
-new_string='ror:shach'
+new_string = 'ror:sha, ch'
 
-new_list1.sort() # sorts in ascending order
-print(new_list1)
+new_list1.sort()  # sorts in ascending order
+print("Sorted new_list1: ", new_list1)
 
-new_list1.reverse() # reverses the list
-print(new_list1)
+new_list1.reverse()  # reverses the list
+print("reversed new_list1: ", new_list1)
 
-new_list2 = "".join(new_list2) # joins all the elements of the list
+new_list2 = "".join(new_list2)  # joins all the elements of the list
 print(new_list2)
 
-new_list2 = "*".join(new_list2) # joins all the elements with a specifier between them
+new_list2 = "*".join(new_list2)  # joins all the elements with a specifier between them
 print(new_list2)
 
-print(new_string.split(':')) # splits at specified classifier
+print(new_string.split(':'))  # splits at specified classifier
+
+print("Minimum value in new_list1: ", min(new_list1))
+print("Maximum value in new_list1: ", max(new_list1))
+print("Sum of all elements in new_list1: ", sum(new_list1))
+print("Length(total elements) of new_list2:", len(new_list2))
+print("length of new_string: ", len(new_string))
 
 # More List Methods: https://docs.python.org/3/tutorial/datastructures.html,
 # http://effbot.org/zone/python-list.htm
