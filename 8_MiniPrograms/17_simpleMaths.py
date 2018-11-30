@@ -8,6 +8,10 @@ print("Enter a mathematical expression. Make sure you've spaces in between numbe
 many_inputs = input()  # Type in format 5 + 4 and it'll give you answer. You can also do 5 - 3, 6 * 5 and so on.
 splitting = many_inputs.split()
 
+if splitting != 3:
+    print("Formatting is wrong.")
+    sys.exit()
+
 left_val = int(splitting[0]) # we're doing indexing to take out left value, operator used and right value
 operator = splitting[1]
 right_val = int(splitting[2])
