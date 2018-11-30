@@ -10,12 +10,12 @@ print(list1)
 
 divisor = int(input("Enter the number you want to divide by:"))
 
-count = 0
+count = 0  # initial count is zero
 
 for divNum in list1:
     if (divNum % divisor == 0 and divNum != divisor):
         count += 1
         list2.append(divNum)
-print(list2)
+print("Output List: ",list2)
 
-print(count)
+print("Count is: ",count)
