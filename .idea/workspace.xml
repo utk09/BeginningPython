@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec481c7-8836-4515-8401-5d3d081c351d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_Loops/10_ForLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_Loops/10_ForLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Variables/4_StringMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Variables/4_StringMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Lists/7_ListMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_Lists/7_ListMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
     <SUITE FILE_PATH="coverage/BeginningPython$6_IntroToLists.coverage" NAME="6_IntroToLists Coverage Results" MODIFIED="1543571982022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
     <SUITE FILE_PATH="coverage/BeginningPython$7_ListMethods.coverage" NAME="7_ListMethods Coverage Results" MODIFIED="1543573048093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
     <SUITE FILE_PATH="coverage/BeginningPython$17_simpleMaths.coverage" NAME="17_simpleMaths Coverage Results" MODIFIED="1543596645365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_MiniPrograms" />
-    <SUITE FILE_PATH="coverage/BeginningPython$8_IntroToDictionary.coverage" NAME="8_IntroToDictionary Coverage Results" MODIFIED="1543576764011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_Dictionary" />
-    <SUITE FILE_PATH="coverage/BeginningPython$11_WhileLoop.coverage" NAME="11_WhileLoop Coverage Results" MODIFIED="1543599107352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
+    <SUITE FILE_PATH="coverage/BeginningPython$8_IntroToDictionary.coverage" NAME="8_IntroToDictionary Coverage Results" MODIFIED="1543640893278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_Dictionary" />
+    <SUITE FILE_PATH="coverage/BeginningPython$11_WhileLoop.coverage" NAME="11_WhileLoop Coverage Results" MODIFIED="1543641559508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
     <SUITE FILE_PATH="coverage/BeginningPython$9_ifElse.coverage" NAME="9_ifElse Coverage Results" MODIFIED="1543594891144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_Conditionals" />
     <SUITE FILE_PATH="coverage/BeginningPython$1_Syntaxes.coverage" NAME="1_Syntaxes Coverage Results" MODIFIED="1542856811951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_BasicSyntax" />
     <SUITE FILE_PATH="coverage/BeginningPython$10_ForLoop.coverage" NAME="10_ForLoop Coverage Results" MODIFIED="1543598013480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
@@ -39,25 +41,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="22" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="22" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="py" value="13363" />
+          <entry key="py" value="14466" />
           <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="13363" />
+          <entry key="Python" value="14466" />
         </counts>
       </usages-collector>
     </session>
@@ -65,19 +67,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6_Loops/10_ForLoop.py">
+        <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
+        <entry file="file://$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="80">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -101,12 +112,8 @@
         <option value="$PROJECT_DIR$/1_BasicSyntax/1_Syntaxes.py" />
         <option value="$PROJECT_DIR$/2_Variables/2_variables.py" />
         <option value="$PROJECT_DIR$/2_Variables/3_Strings.py" />
-        <option value="$PROJECT_DIR$/2_Variables/4_StringMethods.py" />
         <option value="$PROJECT_DIR$/2_Variables/5_UserInputs.py" />
         <option value="$PROJECT_DIR$/3_Lists/6_IntroToLists.py" />
-        <option value="$PROJECT_DIR$/3_Lists/7_ListMethods.py" />
-        <option value="$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py" />
-        <option value="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/15_CeaserCipher.py" />
@@ -115,8 +122,12 @@
         <option value="$PROJECT_DIR$/9_ImageManipulation/18_Grayscale.py" />
         <option value="$PROJECT_DIR$/5_Conditionals/9_ifElse.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/17_simpleMaths.py" />
-        <option value="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" />
         <option value="$PROJECT_DIR$/6_Loops/10_ForLoop.py" />
+        <option value="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" />
+        <option value="$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py" />
+        <option value="$PROJECT_DIR$/3_Lists/7_ListMethods.py" />
+        <option value="$PROJECT_DIR$/2_Variables/4_StringMethods.py" />
+        <option value="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" />
       </list>
     </option>
   </component>
@@ -145,6 +156,21 @@
             <path>
               <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
+              <item name="2_Variables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
+              <item name="3_Lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
+              <item name="4_Dictionary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
@@ -317,10 +343,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.11_WhileLoop" />
+        <item itemvalue="Python.8_IntroToDictionary" />
         <item itemvalue="Python.10_ForLoop" />
         <item itemvalue="Python.17_simpleMaths" />
         <item itemvalue="Python.9_ifElse" />
-        <item itemvalue="Python.8_IntroToDictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -391,62 +417,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_Variables/2_variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Variables/3_Strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Variables/4_StringMethods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Variables/5_UserInputs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" column="96" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_Lists/7_ListMethods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="73" column="93" selection-start-line="73" selection-start-column="93" selection-end-line="73" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_Lists/6_IntroToLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/8_MiniPrograms/16_Recursion.py">
@@ -475,17 +449,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
+    <entry file="file://$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="160">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Variables/5_UserInputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Variables/2_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Variables/3_Strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Lists/7_ListMethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Lists/6_IntroToLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Variables/4_StringMethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6_Loops/10_ForLoop.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
         </state>
       </provider>
     </entry>

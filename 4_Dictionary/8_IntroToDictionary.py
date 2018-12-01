@@ -37,3 +37,25 @@ print("Tata Motors" in car_companies)
 print("Germany" in car_companies)  # tests for key only not value
 
 print(car_companies.items())  # prints them as a pair of tuples
+
+###########------------------BONUS------------------###########
+
+# TUPLES in Python
+'''
+A tuple is a collection which is ordered and "unchangeable".
+You can neither add anything to it, nor remove anything from it.  
+In Python tuples are written with round brackets.
+'''
+print("\n") # adds new lines
+
+tuple1 = (23.56, "hello", 89, "mumbai city", 2018 / 6, 7, 23.56, 5, 7, 89)
+print("Tuple: ", tuple1)
+print("Length of Tuple: ", len(tuple1)) # length of tuple
+print("Value at 3rd index: ",tuple1[3]) # indexing, finding out value at index 2
+
+# Tuple Methods
+x = tuple1.count(89) # this will count the number of times, "89" occurs in tuple
+print("89 occurs: ", x , " :times in this tuple")
+
+y = tuple1.index(7) # this will print the first index of "7" in the tuple
+print("Index of '7' in tuple is: ", y)

@@ -43,6 +43,8 @@ print(all_list)
 all_list.insert(4, "maltova")  # inserts element at the specified index
 print(all_list)
 
+print("\n") # adds new lines
+
 # Let us start fresh
 new_list1 = [2, 1, 4, 9, 7, 0, 1 * 3, 5 / 2]
 new_list2 = ['a', 'b', 'c', 'd', 'z', 'x']
