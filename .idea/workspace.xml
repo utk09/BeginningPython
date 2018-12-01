@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec481c7-8836-4515-8401-5d3d081c351d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +17,13 @@
     <SUITE FILE_PATH="coverage/BeginningPython$7_ListMethods.coverage" NAME="7_ListMethods Coverage Results" MODIFIED="1543573048093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
     <SUITE FILE_PATH="coverage/BeginningPython$8_IntroToDictionary.coverage" NAME="8_IntroToDictionary Coverage Results" MODIFIED="1543642748438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_Dictionary" />
     <SUITE FILE_PATH="coverage/BeginningPython$11_WhileLoop.coverage" NAME="11_WhileLoop Coverage Results" MODIFIED="1543642553862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
+    <SUITE FILE_PATH="coverage/BeginningPython$14_Palindrome.coverage" NAME="14_Palindrome Coverage Results" MODIFIED="1543682318279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_MiniPrograms" />
     <SUITE FILE_PATH="coverage/BeginningPython$1_Syntaxes.coverage" NAME="1_Syntaxes Coverage Results" MODIFIED="1542856811951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_BasicSyntax" />
     <SUITE FILE_PATH="coverage/BeginningPython$10_ForLoop.coverage" NAME="10_ForLoop Coverage Results" MODIFIED="1543598013480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
     <SUITE FILE_PATH="coverage/BeginningPython$2_variables.coverage" NAME="2_variables Coverage Results" MODIFIED="1542857585111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
     <SUITE FILE_PATH="coverage/BeginningPython$5_UserInputs.coverage" NAME="5_UserInputs Coverage Results" MODIFIED="1543557909246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
     <SUITE FILE_PATH="coverage/BeginningPython$3_Strings.coverage" NAME="3_Strings Coverage Results" MODIFIED="1542903920324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Variables" />
+    <SUITE FILE_PATH="coverage/BeginningPython$12_IntroToFunctions.coverage" NAME="12_IntroToFunctions Coverage Results" MODIFIED="1543681276750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7_Functions" />
     <SUITE FILE_PATH="coverage/BeginningPython$17_simpleMaths.coverage" NAME="17_simpleMaths Coverage Results" MODIFIED="1543596645365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_MiniPrograms" />
     <SUITE FILE_PATH="coverage/BeginningPython$13_PrimeNumberChecker.coverage" NAME="13_PrimeNumberChecker Coverage Results" MODIFIED="1543659072633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_MiniPrograms" />
     <SUITE FILE_PATH="coverage/BeginningPython$9_ifElse.coverage" NAME="9_ifElse Coverage Results" MODIFIED="1543594891144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_Conditionals" />
@@ -38,25 +41,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="31" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="31" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="py" value="16233" />
+          <entry key="py" value="17601" />
           <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="16233" />
+          <entry key="Python" value="17601" />
         </counts>
       </usages-collector>
     </session>
@@ -81,20 +84,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="-40">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8_MiniPrograms/15_CeaserCipher.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8_MiniPrograms/16_Recursion.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="140">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -120,7 +142,6 @@
         <option value="$PROJECT_DIR$/2_Variables/3_Strings.py" />
         <option value="$PROJECT_DIR$/2_Variables/5_UserInputs.py" />
         <option value="$PROJECT_DIR$/3_Lists/6_IntroToLists.py" />
-        <option value="$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/15_CeaserCipher.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/16_Recursion.py" />
         <option value="$PROJECT_DIR$/9_ImageManipulation/17_Pillow.py" />
@@ -128,12 +149,13 @@
         <option value="$PROJECT_DIR$/5_Conditionals/9_ifElse.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/17_simpleMaths.py" />
         <option value="$PROJECT_DIR$/6_Loops/10_ForLoop.py" />
-        <option value="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" />
         <option value="$PROJECT_DIR$/3_Lists/7_ListMethods.py" />
         <option value="$PROJECT_DIR$/2_Variables/4_StringMethods.py" />
         <option value="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" />
         <option value="$PROJECT_DIR$/4_Dictionary/8_IntroToDictionary.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py" />
+        <option value="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" />
+        <option value="$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py" />
       </list>
     </option>
   </component>
@@ -228,29 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13_PrimeNumberChecker">
-    <configuration name="10_ForLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BeginningPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_Loops" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Loops/10_ForLoop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.14_Palindrome">
     <configuration name="11_WhileLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeginningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,6 +265,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12_IntroToFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BeginningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7_Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,7 +317,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_simpleMaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14_Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeginningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,7 +330,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_MiniPrograms/17_simpleMaths.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,18 +363,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.8_IntroToDictionary" />
-      <item itemvalue="Python.17_simpleMaths" />
-      <item itemvalue="Python.10_ForLoop" />
       <item itemvalue="Python.11_WhileLoop" />
       <item itemvalue="Python.13_PrimeNumberChecker" />
+      <item itemvalue="Python.12_IntroToFunctions" />
+      <item itemvalue="Python.14_Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14_Palindrome" />
+        <item itemvalue="Python.12_IntroToFunctions" />
         <item itemvalue="Python.13_PrimeNumberChecker" />
         <item itemvalue="Python.8_IntroToDictionary" />
         <item itemvalue="Python.11_WhileLoop" />
-        <item itemvalue="Python.10_ForLoop" />
-        <item itemvalue="Python.17_simpleMaths" />
       </list>
     </recent_temporary>
   </component>
@@ -379,6 +401,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -422,15 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/16_Recursion.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/15_CeaserCipher.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/9_ImageManipulation/18_Pillow.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -448,13 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-134">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -521,10 +528,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py">
+    <entry file="file://$PROJECT_DIR$/7_Functions/12_IntroToFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/15_CeaserCipher.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/16_Recursion.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/13_PrimeNumberChecker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_MiniPrograms/14_Palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
         </state>
       </provider>
     </entry>
