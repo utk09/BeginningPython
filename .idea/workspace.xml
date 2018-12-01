@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec481c7-8836-4515-8401-5d3d081c351d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_Loops/10_ForLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_Loops/10_ForLoop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +19,7 @@
     <SUITE FILE_PATH="coverage/BeginningPython$7_ListMethods.coverage" NAME="7_ListMethods Coverage Results" MODIFIED="1543573048093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Lists" />
     <SUITE FILE_PATH="coverage/BeginningPython$17_simpleMaths.coverage" NAME="17_simpleMaths Coverage Results" MODIFIED="1543596645365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_MiniPrograms" />
     <SUITE FILE_PATH="coverage/BeginningPython$8_IntroToDictionary.coverage" NAME="8_IntroToDictionary Coverage Results" MODIFIED="1543576764011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_Dictionary" />
-    <SUITE FILE_PATH="coverage/BeginningPython$11_WhileLoop.coverage" NAME="11_WhileLoop Coverage Results" MODIFIED="1543598964845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
+    <SUITE FILE_PATH="coverage/BeginningPython$11_WhileLoop.coverage" NAME="11_WhileLoop Coverage Results" MODIFIED="1543599107352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
     <SUITE FILE_PATH="coverage/BeginningPython$9_ifElse.coverage" NAME="9_ifElse Coverage Results" MODIFIED="1543594891144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_Conditionals" />
     <SUITE FILE_PATH="coverage/BeginningPython$1_Syntaxes.coverage" NAME="1_Syntaxes Coverage Results" MODIFIED="1542856811951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_BasicSyntax" />
     <SUITE FILE_PATH="coverage/BeginningPython$10_ForLoop.coverage" NAME="10_ForLoop Coverage Results" MODIFIED="1543598013480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Loops" />
@@ -48,34 +50,34 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="py" value="13147" />
+          <entry key="py" value="13363" />
           <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="13147" />
+          <entry key="Python" value="13363" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6_Loops/10_ForLoop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="160">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="320">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -113,8 +115,8 @@
         <option value="$PROJECT_DIR$/9_ImageManipulation/18_Grayscale.py" />
         <option value="$PROJECT_DIR$/5_Conditionals/9_ifElse.py" />
         <option value="$PROJECT_DIR$/8_MiniPrograms/17_simpleMaths.py" />
-        <option value="$PROJECT_DIR$/6_Loops/10_ForLoop.py" />
         <option value="$PROJECT_DIR$/6_Loops/11_WhileLoop.py" />
+        <option value="$PROJECT_DIR$/6_Loops/10_ForLoop.py" />
       </list>
     </option>
   </component>
@@ -473,17 +475,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6_Loops/10_ForLoop.py">
+    <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="320">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6_Loops/11_WhileLoop.py">
+    <entry file="file://$PROJECT_DIR$/6_Loops/10_ForLoop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
