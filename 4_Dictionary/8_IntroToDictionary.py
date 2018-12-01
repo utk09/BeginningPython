@@ -59,3 +59,42 @@ print("89 occurs: ", x , " :times in this tuple")
 
 y = tuple1.index(7) # this will print the first index of "7" in the tuple
 print("Index of '7' in tuple is: ", y)
+
+###########------------------BONUS------------------###########
+
+print("\n")
+print('''
+You can find the methods attached to "List", "Tuples", "Dictionary", "Strings", "Integers","Floats"
+using "dir" function.
+''')
+
+a_integer = 6
+a_float = 3.67
+a_string = "Maharashtra-INDIA"
+a_list = [1, 2, 3, 5, 7, 3, "hello", "sayonara", 3.1415]
+a_tuple = (1, 2, 3, 5, 7, 3, "hello", "sayonara", 3.1415)
+a_dictionary = {"Virat": 98, "Sachin": 101, "Dhoni": 96, "Rahul": "56 not out" }
+
+print("\n")
+print("a_integer: ",a_integer)
+print(dir(a_integer))
+
+print("\n")
+print("a_float: ", a_float)
+print(dir(a_float))
+
+print("\n")
+print("a_string: ",a_string)
+print(dir(a_string))
+
+print("\n")
+print("a_list: ", a_list)
+print(dir(a_list))
+
+print("\n")
+print("a_tuple: ", a_tuple)
+print(dir(a_tuple))
+
+print("\n")
+print("a_dictionary: ",a_dictionary)
+print(dir(a_dictionary))
