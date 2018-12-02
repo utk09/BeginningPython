@@ -11,7 +11,10 @@ Then it'll become 'BCD' as
 'C' will be substituted by 'D'
 '''
 
-MAX_KEY_SIZE = 26  # referes to maximum 26 letters in English Alphabets
+MAX_KEY_SIZE = 26  # MAX_KEY_SIZE is a constant that stores the integer 26 in it.
+
+
+# MAX_KEY_SIZE reminds us that in this program, the key used in the cipher should be between 1 and 26
 
 
 def getMode():
@@ -24,9 +27,31 @@ def getMode():
             print("Enter either 'encrypt' or 'e' or 'decrypt' or 'd' ")
 
 
+'''
+The getMode() function will let the user type in if they want encryption or decryption mode for the program.
+The value returned from input() and lower() is stored in mode. 
+The if statement’s condition checks if the string stored in mode exists in the list 
+returned by 'encrypt e decrypt d'.split().
+
+This list is ['encrypt', 'e', 'decrypt', 'd'], but it is easier for the programmer 
+to type 'encrypt e decrypt d'.split() and not type in all those quotes and commas. 
+Use whichever is easiest for you; they both evaluate to the same list value.
+
+This function will return the first character in mode 
+as long as mode is equal to 'encrypt', 'e', 'decrypt', or 'd'. 
+Therefore, getMode() will return the string 'e' or the string 'd' 
+(but the user can type in either “e”, “encrypt”, “d”, or “decrypt”.)
+'''
+
+
 def getMessage():
     print("Enter the message: ")
     return str(input())
+
+
+'''
+The getMessage() function simply gets the message to encrypt or decrypt from the user and returns it.
+'''
 
 
 def getKey():
@@ -36,6 +61,18 @@ def getKey():
         key = int(input())
         if (key >= 1 and key <= MAX_KEY_SIZE):
             return key
+
+
+'''
+The getKey() function lets the player type in the key they will use to encrypt or decrypt the message. 
+The while loop ensures that the function keeps looping until the user enters a valid key.
+
+A valid key here is one that is between the integer values 1 and 26 
+(remember that MAX_KEY_SIZE will only ever have the value 26 because it is constant). 
+It then returns this key. 
+Line 61 (int(input) line) sets key to the integer version of what the user typed in, 
+so getKey() returns an integer.
+'''
 
 
 def translatedText(mode, message, key):
