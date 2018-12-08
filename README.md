@@ -19,5 +19,8 @@
 > Try to write your owm programs, take help from [Google](https://www.google.com/).
 
 - **Step 5:**
-> Create your own repository on [Github](ttps://github.com/).
+> Create your own repository on [Github](https://github.com/).
 
+Email your queries at _tuplesedu@gmail.com_
+[YouTube](https://www.youtube.com/c/tuplesedu)
+[Medium](https://medium.com/@tuplesedu)
