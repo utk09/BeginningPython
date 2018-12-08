@@ -1,6 +1,26 @@
+# Install pip from here: https://pip.pypa.io/en/stable/installing/
+# pip is a package manager. if you want to install library in Python, just run pip install <name-of-library>
+# and you need to go to your cmd or terminal to run this pip install <name-of-library>
+
+# Eg: You want to install Numpy library.
+# Go to cmd (Windows) or Terminal(Mac, Ubuntu)
+# Type:   "python" or "python3" without the double quotes.
+# Then press Enter.
+# If you get something like this -- Python 3.7.0 (v3.....)
+# Then it means your Python is on Path and now you're ready to run pip.
+
+# Type: "pip install numpy"
+# It'll start downloading and then install automatically.
+
+# Install numpy from here: https://pypi.org/project/numpy/
+
 # This program will take input from User and tell whether it's Prime or Not.
 
-import numpy as np # numpy is a mathematical library which does fast computation
+
+import numpy as np  # numpy is a mathematical library which does fast computation
+
+# "as" is used to give a short name to library.
+# you can write numpy as p, or numpy as num also. But accepted convention is np
 
 print('''
 Hey! Enter a number and I'll tell you if it's prime or not.
@@ -10,9 +30,9 @@ num = int(input("Enter a number: "))
 
 if num >= 2:
     divisors_list = []
-    for divisor in range (2, num):
+    for divisor in range(2, num):
         # if num % divisor == 0:  # you can even use this commented 'if' statement.
-        if np.remainder(num, divisor) == 0: # this makes calculation faster
+        if np.remainder(num, divisor) == 0:  # this makes calculation faster
             divisors_list.append(divisor)
 
     if len(divisors_list) == 0:
