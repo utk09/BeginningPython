@@ -8,7 +8,7 @@
 > Extract if downloaded as '.zip'
 
 - **Step 2:**
-> Use [Pycharm] (https://www.jetbrains.com/pycharm/download/) or any other [Python IDE] (http://www.discoversdk.com/blog/10-best-python-ides) to run this code.
+> Use [Pycharm (https://www.jetbrains.com/pycharm/download/)] or any other [Python IDE] (http://www.discoversdk.com/blog/10-best-python-ides) to run this code.
 
 - **Step 3:**
 > Go through folders in order. Read the code and comments, run it, and check the outputs.
