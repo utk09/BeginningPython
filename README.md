@@ -21,6 +21,7 @@
 - **Step 5:**
 > Create your own repository on [Github](https://github.com/).
 
-Email your queries at _tuplesedu@gmail.com_
-[YouTube](https://www.youtube.com/c/tuplesedu)
-[Medium](https://medium.com/@tuplesedu)
+
+- Email your queries at _tuplesedu@gmail.com_
+- [YouTube](https://www.youtube.com/c/tuplesedu)
+- [Medium](https://medium.com/@tuplesedu)
