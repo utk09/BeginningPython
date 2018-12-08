@@ -4,7 +4,7 @@
 ### A guide through this Repository
 
 - **Step 1:**
-> Download as '.zip' or clone this repository
+> Download as '.zip' or clone this repository.
 > Extract if downloaded as '.zip'
 
 - **Step 2:**
@@ -13,7 +13,7 @@
 - **Step 3:**
 > Go through folders in order. Read the code and comments, run it, and check the outputs.
 > Perform the tasks, if given.
-> Try playing and manipulating the code
+> Try playing and manipulating the code.
 
 - **Step 4:**
 > Try to write your owm programs, take help from [Google](https://www.google.com/).
