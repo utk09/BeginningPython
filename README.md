@@ -12,8 +12,9 @@
 
 - **Step 3:**
 > Go through folders in order. Read the code and comments, run it, and check the outputs.
-> Perform the tasks, if given.
-> Try playing and manipulating the code.
+> A proper description has been given wherever necessary/possible.
+> Then, perform the tasks, if given.
+> Try playing around and manipulating the code.
 
 - **Step 4:**
 > Try to write your owm programs, take help from [Google](https://www.google.com/).
