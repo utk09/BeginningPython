@@ -9,6 +9,7 @@ Then it'll become 'BCD' as
 'A' will be substituted by 'B'
 'B' will be substituted by 'C'
 'C' will be substituted by 'D'
+See the image "CaesarCipher1.jpg" to understand
 '''
 
 MAX_KEY_SIZE = 26  # MAX_KEY_SIZE is a constant that stores the integer 26 in it.
@@ -78,14 +79,36 @@ so getKey() returns an integer.
 def translatedText(mode, message, key):
     if mode[0] == 'd':
         key = -key
-    translated = ''
+    translated = ""
+
+    '''
+    getTranslatedMessage() does the encrypting and decrypting. It has three parameters:
+    · mode sets the function to encryption mode or decryption mode.
+    · message is the plaintext (or ciphertext) to be encrypted (or decrypted).
+    · key is the key that is used in this cipher.
+    Line "if mode[0] == 'd':" checks if the first letter in the mode variable is the string 'd'. 
+    If so, then the program is in decryption mode. 
+    The only difference between the decryption and encryption mode 
+    is that in decryption mode the key is set to the negative version of itself. 
+    If key was the integer 22, then in decryption mode set it to -22. 
+    The reason why will be explained later. 
+    translated is the string of the result: either the ciphertext (if you are encrypting) 
+    or the plaintext (if you are decrypting). 
+    It starts as the blank string and has encrypted or decrypted characters 
+    concatenated to the end of it.
+    '''
 
     for symbol in message:
         if symbol.isalpha():
             num = ord(symbol)
             num += key
 
-            if symbol.isupper():
+            '''
+            The isalpha() string method will return True if the string is an uppercase or lowercase letter from A to Z. 
+            If the string contains any non-letter characters, then isalpha() will return False.
+            '''
+
+            if symbol.isupper():  # works in the same way as "isalpha()"
                 if (num > ord('Z')):
                     num -= 26
                 elif (num < ord('A')):
@@ -96,10 +119,30 @@ def translatedText(mode, message, key):
                 elif (num < ord('a')):
                     num += 26
 
-            translated += chr(num)
+                    '''
+                    Line "symbol.isupper():" checks if the symbol is an uppercase letter. 
+                    If so, there are two special cases to worry about. 
+                    What if symbol was 'Z' and key was 4? If that were the case, 
+                    the value of num here would be the character '^' (The ordinal of '^' is 94). 
+                    But ^ isn’t a letter at all. You want the ciphertext to “wrap around” to the beginning of the alphabet.
+                    Check if num has a value larger than the ordinal value for “Z”. 
+                    If so, then subtract 26 (because there are 26 letters in total) from num. 
+                    After doing this, the value of num is 68. 68 is the correct ordinal value for 'D'
+                    
+                    If the symbol is a lowercase letter, 
+                    the program runs code that is similar to lines 111 through 114. 
+                    The only difference is that it uses ord('z') and ord('a') instead of ord('Z') 
+                    and ord('A').
+                    In decrypting mode, then key would be negative. 
+                    The special case would be where num -= 26 is less than the ASCII value for “a”. 
+                    In that case, add 26 to num to have it “wrap around” to the end of the alphabet.
+                    
+                    '''
+
+            translated += chr(num)  # concatenates the encrypted/decrypted character to the translated string.
         else:
-            translated += symbol
-    return translated
+            translated += symbol  # If the symbol was not an uppercase or lowercase letter, then this line concatenates the original symbol to the translated string. Therefore, spaces, numbers, punctuation marks, and other characters won’t be encrypted or decrypted.
+    return translated  # returns translated message
 
 
 mode = getMode()
