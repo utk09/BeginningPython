@@ -49,6 +49,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="9" />
+          <entry key="Markdown" value="1" />
           <entry key="Python" value="68" />
         </counts>
       </usages-collector>
@@ -149,16 +150,6 @@
               <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
               <item name="1_BasicSyntax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="8_MiniPrograms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BeginningPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BeginningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="9_ImageManipulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,6 +327,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,6 +501,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9_ImageManipulation/rsz_image1.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-16" />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/9_ImageManipulation/18_Pillow.py">
       <provider selected="true" editor-type-id="text-editor">
