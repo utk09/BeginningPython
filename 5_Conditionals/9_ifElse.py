@@ -53,7 +53,6 @@ Other operators are ">=", "<="
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter another number: "))
 if num2 is not 0:
-    print("num1 divided by num2 is: ", num1/num2)
+    print("num1 divided by num2 is: ", num1 / num2)
 else:
     print("Make sure second number is not zero.")
-

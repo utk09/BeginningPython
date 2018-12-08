@@ -12,7 +12,7 @@ if splitting != 3:
     print("Formatting is wrong.")
     sys.exit()
 
-left_val = int(splitting[0]) # we're doing indexing to take out left value, operator used and right value
+left_val = int(splitting[0])  # we're doing indexing to take out left value, operator used and right value
 operator = splitting[1]
 right_val = int(splitting[2])
 
@@ -23,17 +23,14 @@ if operator == '+':
 elif operator == '-':
     print("Subtraction:", left_val - right_val)
 elif operator == '*':
-    print("Multiplication:", left_val*right_val)
+    print("Multiplication:", left_val * right_val)
 elif operator == '**' or operator == '^':
-    print("Power:", left_val**right_val)
+    print("Power:", left_val ** right_val)
 elif operator == "/":
     if right_val is not 0:
-        print("Division:", left_val/right_val)
+        print("Division:", left_val / right_val)
     else:
         print("Division by 0 not possible")
         sys.exit()
 else:
-    print("Unknown Operator detected. We don't know about {opr}".format(opr = operator))
-
-
-
+    print("Unknown Operator detected. We don't know about {opr}".format(opr=operator))

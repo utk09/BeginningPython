@@ -43,7 +43,7 @@ print(all_list)
 all_list.insert(4, "maltova")  # inserts element at the specified index
 print(all_list)
 
-print("\n") # adds new lines
+print("\n")  # adds new lines
 
 # Let us start fresh
 new_list1 = [2, 1, 4, 9, 7, 0, 1 * 3, 5 / 2]
@@ -77,7 +77,6 @@ print(new_list1[3:len(new_list1)])  # slices from 3rd element till end of list(l
 
 # More List Methods: https://docs.python.org/3/tutorial/datastructures.html,
 # http://effbot.org/zone/python-list.htm
-
 
 
 # Tasks: https://codingbat.com/python/List-1

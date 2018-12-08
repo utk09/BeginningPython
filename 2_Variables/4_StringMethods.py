@@ -38,7 +38,7 @@ another_substring = "a"
 count = delta.count(another_substring, 2, 34)  # count after first 'a' and before the 34th position 'a'
 print("The count for another_substring is:=", count)
 
-print("\n") # adds new lines
+print("\n")  # adds new lines
 
 # find() method
 # find() returns an integer value.
