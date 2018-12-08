@@ -9,17 +9,23 @@ im.show()
 
 im2 = Image.open("scooter.jpeg")
 im2.show()
-im2 = im2.rotate(55) # rotate the image by 55 degrees
+im2 = im2.rotate(55)  # rotate the image by 55 degrees
+
 
 # Now, let us resize the images.
 
-def resize(image_names, new_size = (256, 256)):
+def resize(image_names, new_size=(256, 256)):
     for im_name in image_names:
         img = Image.open(im_name)
         img = img.resize(new_size)
-        img.save("rsz_"+im_name)
+        img.save("rsz_" + im_name)
+
 
 images = ['image1.jpg', 'scooter.jpeg']
 resize(images)
 
-
+# convert image to greyscale
+colour_img = Image.open('colourful.jpg')
+colour_img.show()
+grayscale = colour_img.convert('L')
+grayscale.show()
